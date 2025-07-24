@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background: white;
+    font-family: 'Poppin', sans-serif;
+    background: ghostwhite;
     color: #333;
     line-height: 2rem;
     padding: 0 1rem;
@@ -19,7 +19,7 @@ header {
     text-align: center;
 }
 
-header h2 {
+header h1 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
 }
@@ -30,12 +30,18 @@ header p {
 }
 
 .btn {
-    background: white;
-    color: black;
-    padding: 0.75rem 1.5rem;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
+  background: #007BFF;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background: #0056b3;         /* Darker blue */
+  transform: scale(1.05);      /* Slight zoom on hover */
 }
 
 #features {
@@ -53,7 +59,7 @@ header p {
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     text-align: center;
     max-width: 400px;
-    width: 100%; 
+    width: 100%;
 }
 
 footer {
