@@ -8,31 +8,30 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #f2f2f2;
     color: #333;
-    line-height: 1.6rem;
+    line-height: 1.7rem;
     padding: 0 1rem;
 }
 
 header {
-    background: #4CAF50;
-    color: white;
-    padding: 4rem 1rem;
+    background: #7df9ff;
+    color: black;
+    padding: 8rem 1rem;
     text-align: center;
 }
 
 header h1 {
     font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-header p {
-    font-size: 1.1rem;
     margin-bottom: 1.5rem;
 }
 
+header p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
 .btn {
     background: white;
-    color: #4CAF50;
-    padding: 0.75rem 1.5rem;
+    color: #4caf50;
+    padding: .75rem 1.5rem;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
@@ -50,7 +49,7 @@ header p {
     background: white;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     text-align: center;
     max-width: 400px;
     width: 100%;
