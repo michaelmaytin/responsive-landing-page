@@ -6,9 +6,9 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #f2f2f2;
+    background: white;
     color: #333;
-    line-height: 1.7rem;
+    line-height: 2rem;
     padding: 0 1rem;
 }
 
@@ -19,20 +19,21 @@ header {
     text-align: center;
 }
 
-header h1 {
+header h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
 }
 
 header p {
-    font-size: 1rem;
+    font-size: 1.0rem;
     margin-bottom: 1.5rem;
 }
+
 .btn {
     background: white;
-    color: #4caf50;
-    padding: .75rem 1.5rem;
-    border-radius: 5px;
+    color: black;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -52,7 +53,7 @@ header p {
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     text-align: center;
     max-width: 400px;
-    width: 100%;
+    width: 100%; 
 }
 
 footer {
