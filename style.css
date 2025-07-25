@@ -1,50 +1,56 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 body {
-    font-family: 'Poppin', sans-serif;
-    background: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    line-height: 2 rem;
+    font-family: 'Courier New', Courier, monospace;
+    background: #fff533;
+    color: black;
     padding: 0 1rem;
+    line-height: 2rem;
 }
 
 header {
-    background: rgb(171, 235, 252);
-    color: black;
+    background: rgb(193, 39, 204);
+    color: white;
     padding: 8rem 1rem;
     text-align: center;
 }
 
 header h1 {
-    font-size: 3.0rem;
-    margin-bottom: 1.0rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: auto;
+    margin-bottom: 1rem;
 }
 
 header p {
-    font-size: 1rem;
+    font-size: 1.125rem;
+    margin: auto;
     margin-bottom: 2.5rem;
 }
 
 .btn {
     background: white;
     color: black;
-    border-radius: 10px;
     padding: 1.5rem 1rem;
-    margin-top: 1.25rem;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
     outline: auto;
 }
 
 .btn:hover {
-    box-shadow: 0 5px 10px rgb(0, 0, 0, .4);
-    background: rgb(32, 44, 49);
-    color: rgb(50, 188, 133);
-    transition: .3s ease;
+    background: rgb(238, 183, 255);
+    color: rgb(165, 8, 185);
+    box-shadow: 0 10px 20px rgba(0,0,0,1);
+    transition: .5s ease;
+}
+
+section {
+    background: rgb(249, 255, 136);
 }
 
 #features {
@@ -56,26 +62,23 @@ header p {
 }
 
 .feature {
-    background: rgb(211, 211, 211);
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background: rgb(245, 209, 255);
     text-align: center;
-    max-width: 400px;
-    width: 100%;
-    outline: auto;
-    margin-bottom: 1rem;
+    padding: 4rem 4rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,10);
+    margin: 1rem;
 }
 
 .feature:hover {
-    background: rgb(160, 160, 160);
-    transition: 0.3s ease;
+    color: rgb(255, 28, 247);
+    transition: .5s ease
 }
 
-
 footer {
-    background: gray;
-    padding: 3.5rem 1rem;
+    background: rgb(66, 66, 66);
+    color: rgb(226, 226, 226);
+    padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    font-size: larger;
 }
